@@ -27,7 +27,7 @@ Login com email incorreto
 
 Login com email em branco
     Dado que a sessão é iniciada
-    Quando eu realizar o login com o email e a senha    ${EMPTY}   "12345"
+    Quando eu realizar o login com o email e a senha    ${EMPTY}   12345
     Então obtenho o status code     400
     E obtenho a mensagem no campo    email não pode ficar em branco     email
 
