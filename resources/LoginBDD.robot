@@ -11,6 +11,8 @@ ${API_URL}      http://serverest.dev
 ${ALIAS}        serverest
 
 ***Keywords***
+Dado que a sessão é iniciada
+    Create Session      ${ALIAS}    ${API_URL}
 
 Quando eu realizar o login com o email e a senha
     [Arguments]     ${EMAIL}  ${SENHA}
